@@ -58,13 +58,6 @@ function NewCommentForm({ place, onSubmit }) {
                     />
                 </div>
             </div>
-            {/* <div className="row">
-                <div className="form-group col-sm-4">
-                    <label htmlFor="state">Author</label>
-                    <select className="form-control" value={comment.authorId} onChange={e => setComment({ ...comment, authorId: e.target.value })}>
-                        {authorOptions}
-                    </select>
-                </div> */}
                 <div className="form-group col-sm-4">
                     <label htmlFor="stars">Star Rating</label>
                     <input
@@ -90,7 +83,6 @@ function NewCommentForm({ place, onSubmit }) {
                         className="form-control"
                     />
                 </div>
-            {/* </div> */}
             <input className="btn btn-primary" type="submit" value="Add Comment" />
         </form>
     )
